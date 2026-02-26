@@ -1,6 +1,6 @@
 # Maze Solver
 
-A terminal-based maze solver written in Python. Includes a script with different maze solving algorithms and a folder of mazes represented by CSV files.
+A terminal-based, cross platform maze solver written in Python. Includes a script with different maze solving algorithms and a folder of mazes represented by CSV files.
 
 ## What This Does
 
@@ -17,6 +17,14 @@ A terminal-based maze solver written in Python. Includes a script with different
 Each algorithm uses a random generator to randomize the solution.
 
 ## Requirements
+
+### Supported Platforms
+
+- Windows
+- Linux
+- macOS
+
+### Dependencies
 
 - Python 3.10+
 
