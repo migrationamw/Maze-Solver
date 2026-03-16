@@ -1,10 +1,10 @@
 # Maze Solver
 
-A terminal-based, cross platform maze solver written in Python. Includes a script with different maze solving algorithms and a folder of mazes represented by CSV files.
+A terminal-based, cross platform maze solver written in Python. Includes a file with different maze solving algorithms and a folder of CSV mazes.
 
 ## What This Does
 
-**Maze Solver** allows the user to select an input maze to solve with a specified algorithm all through the CLI. After the selection of a maze and algorithm, the script outputs a series of time delayed representations of each step of the chosen solution to that maze. The user can also create new CSV mazes to solve.
+**Maze Solver** allows the user to select an input maze to solve with a specified algorithm all through the CLI. After the selection of a maze and algorithm, the script outputs a series of time delayed representations of each step of the chosen solution to that maze. The user can also create and solve new CSV mazes.
 
 ### Key Features
 
@@ -43,16 +43,20 @@ python mazeSolver.py
 
 ### Script presents mazes and prompts the user to select a maze.
 
-![alt text](images/image-1.png)
+![alt text](images/image1.png)
 
 ### Script presents algorithms and prompts the user to select an algorithm.
 
-![alt text](images/image-2.png)
+![alt text](images/image2.png)
 
 ### Executes algorithm and illustrates each step
 
-![alt text](images/image-3.png)
+![alt text](images/image3.png)
 
 ## Add Mazes
 
-To add a maze, add the file `maze<N>.csv` to `mazes/` in the same format of 0s, 1s, A and B.
+To add a maze, add the file `maze<N>.csv` to `/mazes` in the same format of 0s, 1s, A and B.
+
+## License
+
+MIT — Use it, modify it, share it.
